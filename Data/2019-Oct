@@ -1,0 +1,10 @@
+# Data Source
+
+The dataset used in this project is too large for GitHub.
+
+It is available on Google Drive:
+
+👉 [Download 2019-Oct.csv](https://drive.usercontent.google.com/download?id=17Lk5PSub28UVBl-USPlDFh-Z3mcEZDH7&export=download&authuser=0&confirm=t&uuid=095f33cd-2ce9-4681-856d-f7d49e3b9681&at=APcmpoyh4cdQLNWEOcowd77ZW6tU%3A1745047922226)
+
+# Download with the following bash script
+wget -O 2019-Oct.csv "https://drive.usercontent.google.com/download?id=17Lk5PSub28UVBl-USPlDFh-Z3mcEZDH7&export=download&authuser=0&confirm=t&uuid=095f33cd-2ce9-4681-856d-f7d49e3b9681&at=APcmpoyh4cdQLNWEOcowd77ZW6tU%3A1745047922226"
