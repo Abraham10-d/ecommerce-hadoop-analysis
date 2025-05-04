@@ -27,7 +27,7 @@ CREATE EXTERNAL TABLE IF NOT EXISTS October2019(
     user_session STRING
 )
 ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
-STORED AS TEXTFILE LOCATION '/user/adamia17/EcommerceAnalysis/Oct2019'
+STORED AS TEXTFILE LOCATION '/user/your_databasename/EcommerceAnalysis/Oct2019'
 TBLPROPERTIES ('skip.header.line.count'='1');
 
 
@@ -100,4 +100,4 @@ hdfs dfs -get EcommerceAnalysis/Oct2019/2019-Oct.csv
 ls -al
 
 #  12. (Open another terminal with git bash in order to read/import the output file using your pc)
-scp a*****@144.24.46.199:/home/adamia17/2019-Oct.csv 2019-Oct.csv
+scp a*****@144.24.46.199:/home/your_database/2019-Oct.csv 2019-Oct.csv
