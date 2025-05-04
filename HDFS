@@ -1,0 +1,5 @@
+# (Upload 2019-Oct.csv to a directory in HDFS for analysis)
+hdfs dfs -mkdir EcommerceAnalysis
+hdfs dfs -mkdir EcommerceAnalysis/Oct2019
+hdfs dfs -ls
+hdfs dfs -put 2019-Oct.csv EcommerceAnalysis/Oct2019
