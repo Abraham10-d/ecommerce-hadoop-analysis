@@ -80,7 +80,7 @@ GROUP BY user_id
 ORDER BY total_revenue DESC
 LIMIT 25;
 
-#  10.  (Tempo-Spatial Analysis)
+# 10.  (Tempo-Spatial Analysis)
 SELECT 
     DATE(event_time) AS event_date, 
     COUNT(DISTINCT user_id) AS unique_users, 
@@ -92,12 +92,12 @@ WHERE event_type = 'purchase'
 GROUP BY DATE(event_time)
 ORDER BY event_date ASC, total_revenue DESC;
 
-#  11. (Open another terminal with git bash, and download the data into pc)
+# 11. (Open another terminal with git bash, and download the data into pc)
 ssh *****@144.24.46.199
 password: *******
 
 hdfs dfs -get EcommerceAnalysis/Oct2019/2019-Oct.csv
 ls -al
 
-#  12. (Open another terminal with git bash in order to read/import the output file using your pc)
+# 12. (Open another terminal with git bash in order to read/import the output file using your pc)
 scp a*****@144.24.46.199:/home/your_database/2019-Oct.csv 2019-Oct.csv
