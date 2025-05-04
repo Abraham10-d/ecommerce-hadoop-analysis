@@ -1,4 +1,4 @@
-#  0. (Connect to Hadoop cluster)
+#  0. (Connect to Hadoop cluster) 
 ssh ****@144.24.46.199
 password: *******
 
